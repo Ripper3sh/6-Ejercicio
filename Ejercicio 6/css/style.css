@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:content-box;
+    background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container{
+    margin: 20px;
+    text-align: center;
+}
+
+.card{
+    display: inline-block;
+    margin: 20px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 10px 11px 22px 10px rgba(0,0,0,0.75);
+    text-align: center;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.card h2{
+margin-bottom: 20px;    
+}
+
+.card img{
+    width: 70%;
+}
+
+.card:hover{
+    transform:scale(1.1);
+}
